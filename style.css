@@ -1,0 +1,979 @@
+body
+{   
+	position: relative;
+	height: auto;
+	width: 0 auto;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	width: 100%;
+	
+}
+
+main
+{
+   margin-bottom: 70px;
+}
+
+#logo
+{   border:2px solid #018574;
+	background-color: #018574;
+	width: 100%;
+}
+ 
+header #ohmyfood 
+{
+	text-align: center;
+	color: #FFC400;
+}
+header #ohmyfood a
+{
+	color: #FFC400;
+	text-decoration: none;
+}
+
+.menuhaut
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.menuhaut div:nth-child(1) section figure i
+{
+	text-align: center;
+   	font-size: 40px;
+    background: -webkit-gradient(linear, left bottom, right bottom, from(#ef5350), to(#FFAB91));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menubas
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.menuhaut div
+{   flex-wrap: wrap;
+	justify-content: space-around; 
+	padding-bottom: 200px;
+	padding-top: 200px;
+	width: 30%;
+	margin: 50px;
+}
+
+.menubas div
+{   
+	flex-wrap: wrap;
+	justify-content: space-around; 
+	padding-bottom: 200px;
+	padding-top: 200px;
+	width: 30%;
+	margin: 50px;
+}
+
+.menuhaut div section
+{
+	text-align: center;
+}
+
+.menubas div section
+{
+	text-align: center;
+}
+
+.menuhaut div:nth-child(1)
+{
+	background-color: #ffcdd2;
+	box-shadow: 4px 4px 4px 4px grey;
+}
+
+.menuhaut div:nth-child(1) a
+{
+	text-decoration: none;
+}
+
+.menuhaut div:nth-child(1) a section h4
+{
+	color: #4E342E; 
+	font-family: 'Ma Shan Zheng', cursive;
+	font-size: 30px; 
+}
+
+.menuhaut div:nth-child(1) a section h2 
+{
+	font-family: "comic sans ms";
+	color: #4E342E;
+	font-size: 30px;
+}
+
+.menuhaut div:nth-child(2)
+{
+	background-color: #FCE4EC;
+	box-shadow: 4px 4px 4px 4px grey;
+}
+
+.menuhaut div:nth-child(2) a
+{
+	text-decoration: none;
+}
+
+.menuhaut div:nth-child(2) a section h4
+{
+	font-family: 'Croissant One', cursive;
+	font-size: 23px;
+	background: -webkit-gradient(linear, left bottom, right bottom, from(#FFA000), to(#651FFF));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+  
+.menuhaut div:nth-child(2) a section h2 
+{
+	color: #e67e22;
+	font-size: 30px;
+}
+
+.menubas div:nth-child(1)
+{
+	background-color: #FAFAFA;
+	box-shadow: 4px 4px 4px 4px grey;
+}
+
+.menubas div:nth-child(1) a
+{
+	text-decoration: none;
+}
+ 
+.menubas div:nth-child(1) a section h4
+{
+	font-family:'Dancing Script', cursive;
+	font-size: 30px;
+	background: -webkit-gradient(linear, left bottom, right bottom, from(#2019DF), to(#57E7FF));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.menubas div:nth-child(1) a section h2 
+{
+	color: #2196F3;
+	text-decoration: none;
+	font-family: 'Paprika', cursive;
+	font-size: 25px;
+}
+
+.menubas div:nth-child(2)
+{
+	background-color: #F9FBE7;
+	box-shadow: 4px 4px 4px 4px grey;
+}
+
+.menubas div:nth-child(2) a
+{
+	text-decoration: none;
+}
+
+.menubas div:nth-child(2) a section h2 
+{
+	color: #8BC34A;
+	text-decoration: none;
+	font-family: 'Paprika', cursive;
+	font-size: 25px;
+}
+
+.menubas div:nth-child(2) a section h4
+{
+	font-family: 'Romanesco', cursive;
+	font-size: 35px;
+	background: -webkit-gradient(linear, left bottom, right bottom, from(#0A630D), to(#C6FF00));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#prochainement 
+{   border:3px solid #018574;
+	background-color: #018574;
+	margin-right: 41%;
+	margin-left: 41%;
+	margin-bottom:5%; 
+	border-radius: 8px;
+} 
+
+#prochainement h2
+{
+   color: #FFC400;
+   font-family: trebuchet ms;
+   text-align: center;	
+   margin-top: 6px;
+   margin-bottom: 6px;
+}
+
+footer 
+{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	height:55px;
+}
+
+footer nav
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border: 1px solid #018574;
+	background-color: #018574;
+}
+
+footer nav div p a
+{   
+	color: #FFC400;
+	text-decoration: none;
+	font-family: trbuchet ms;
+	font-size: 18px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+main h1 
+{
+	text-align: center;
+	font-size: 30px;
+}
+
+/*-------------Menu 1 La note enchantée-------------*/
+
+#menu1
+{
+    background-color: #ffcdd2; 
+}
+
+main figure
+{
+	text-align: center;
+	margin-top: 40px;
+}
+
+main figure i
+{
+   	font-size: 60px;
+    background: -webkit-gradient(linear, left bottom, right bottom, from(#ef5350), to(#FFAB91));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+main #titrelanote
+{
+	color: #4E342E; 
+	font-family: 'Ma Shan Zheng', cursive;
+	font-size: 50px; 
+	text-align: center;
+}
+
+main section div .lanotesoustitre
+{
+	text-align: center;
+    font-family: "comic sans ms";
+    color: #4E342E;
+	font-size: 25px;
+}
+
+ main section .lanoteparag 
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 150px;
+	margin-left: 150px;
+	font-size: 19px;
+	font-family: "comic sans ms";
+    color: #4E342E; 
+}
+
+main aside h1 i 
+{
+	font-size: 40px;
+    background: -webkit-gradient(linear, left bottom, right bottom, from(#ef5350), to(#FFAB91));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+main aside h1
+{
+	font-size: 30px;
+    text-align: center;
+}
+
+/*---------Menu 2 Le chic à la française-------*/
+#menu2
+{
+	background-color: #FCE4EC;  
+}
+
+main #titrelechic
+{
+	font-family: 'Croissant One', cursive;
+	font-size: 40px;
+	text-align: center;
+	background: -webkit-gradient(linear, left bottom, right bottom, from(#FFA000), to(#651FFF));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+main section div .lechicsoustitre1
+{
+	text-align: center;
+    color: #C67200;
+	font-size: 30px;
+}
+
+main section .lechicparag1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 150px;
+	margin-left: 150px;
+	font-size: 20px;
+    color: #C67200;
+}
+
+main section div .lechicsoustitre2
+{
+	text-align: center;
+    color: #A9527B;
+	font-size: 30px;
+}
+
+main section .lechicparag2
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 150px;
+	margin-left: 150px;
+	font-size: 20px;
+    color: #A9527B;
+}
+
+main section div .lechicsoustitre3
+{
+	text-align: center;
+    color: #9221BA;
+	font-size: 30px;
+}
+
+main section .lechicparag3
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 150px;
+	margin-left: 150px;
+	font-size: 20px;
+    color: #9221BA;
+}
+
+/*-------- Menu 3 Le délice des papilles------*/
+#menu3
+{
+	background-color: #FAFAFA; 
+}
+
+main #titreledelice
+{
+	font-family:'Dancing Script', cursive;
+	font-size: 50px;
+	text-align: center;
+	background: -webkit-gradient(linear, left bottom, right bottom, from(#2019DF), to(#57E7FF));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+main section div .ledelicesoustitre1
+{
+	text-align: center;
+	font-family: 'Paprika', cursive;
+	font-size: 23px;
+	color: black;
+}
+
+main section div .ledelicesoustitre2
+{
+	text-align: center;
+	font-family: 'Paprika', cursive;
+	font-size: 23px;
+	color: black;
+}
+
+main section div .ledelicesoustitre3
+{
+	text-align: center;
+	font-family: 'Paprika', cursive;
+	font-size: 23px;
+	color: black;
+}
+
+ main section .ledeliceparag
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 150px;
+	margin-left: 150px;
+	font-size: 16px;
+	font-family: 'Paprika', cursive;
+    color: black; 
+}
+
+/*-----------Menu 4 La palette du goût-----------*/
+#menu4
+{
+	background-color: #F9FBE7;
+}
+
+main #titrelapalette
+{
+	font-family: 'Romanesco', cursive;
+	font-size: 60px;
+	text-align: center;
+	background: -webkit-gradient(linear, left bottom, right bottom, from(#0A630D), to(#C6FF00));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ section div .lapalettesoustitre
+{
+	text-align: center;
+	font-family: 'Paprika', cursive;
+	font-size: 25px;
+	color: black;
+}
+
+ main section .lapaletteparag
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 150px;
+	margin-left: 150px;
+	font-size: 16px;
+	font-family: 'Paprika', cursive;
+    color: black; 
+}
+
+/*-----------Mentions Légales-----------*/
+main #legale
+{
+	font-size: 30px;
+}
+
+main #mentions
+{
+	font-size: 20px;
+	text-align: center;
+}
+/*---------------Animations--------------*/
+/* Zoom Menus*/
+.zoom 
+{
+	width: 320px;
+	height: 240px;
+}
+.resto
+{
+	width: 100%;
+	height: 100%;
+}
+.resto
+{
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+	-webkit-transition: all 1s ease; /* Safari et Chrome */
+	-moz-transition: all 1s ease; /* Firefox */
+	-ms-transition: all 1s ease; /* Internet Explorer 9 */
+	-o-transition: all 1s ease; /* Opera */
+	transition: all 1s ease;
+}
+.resto:hover
+{
+/* L'image est grossie de 25% */
+	-webkit-transform:scale(1.25); /* Safari et Chrome */
+	-moz-transform:scale(1.25); /* Firefox */
+	-ms-transform:scale(1.25); /* Internet Explorer 9 */
+	-o-transform:scale(1.25); /* Opera */
+	transform:scale(1.25);
+	opacity: 30%;
+}
+
+/* Prochainement points de suspension*/
+#prochainement h2:after 
+{
+	display: inline-block;
+	animation: dotty steps(1,end) 2s infinite;
+	content: '';
+}
+@keyframes dotty 
+{
+	0%   { content: ''; }
+	25%  { content: '.'; }
+	50%  { content: '..'; }
+	75%  { content: '...'; }
+	100% { content: ''; }
+}
+
+ /*Soustitre souligner gauche vers la droite à revoir
+section div h2:before
+{
+	 content: '';
+    display: block;
+    margin: auto;
+    height: 1px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+section div h2:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 1px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+section div h2:hover:after {
+    width: 26%;
+    background: #444;
+}
+*/
+
+/*------------------Traits des soustitre------------------*/
+section div .lanotesoustitre{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.lanotesoustitre:before, .lanotesoustitre:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 4px;
+    content: '\a0';
+    background-color: #4E342E; 
+}
+.lanotesoustitre:before {
+    margin-left: -50%;
+    text-align: right;
+}
+
+section div h2.lechicsoustitre1{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.lechicsoustitre1:before, .lechicsoustitre1:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 4px;
+    content: '\a0';
+    background-color: #C67200;
+}
+.lechicsoustitre1:before {
+    margin-left: -50%;
+    text-align: right;
+}
+
+section div h2.lechicsoustitre2{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.lechicsoustitre2:before, .lechicsoustitre2:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 4px;
+    content: '\a0';
+    background-color: #A9527B;
+}
+.lechicsoustitre2:before {
+    margin-left: -50%;
+    text-align: right;
+}
+
+section div h2.lechicsoustitre3{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.lechicsoustitre3:before, .lechicsoustitre3:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 4px;
+    content: '\a0';
+    background-color: #9221BA;
+}
+.lechicsoustitre3:before {
+    margin-left: -50%;
+    text-align: right;
+}
+
+section div .ledelicesoustitre1{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.ledelicesoustitre1:before, .ledelicesoustitre1:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 4px;
+    content: '\a0';
+    background-color: #3B3DED; 
+}
+.ledelicesoustitre1:before {
+    margin-left: -50%;
+    text-align: right;
+}
+
+section div .ledelicesoustitre2{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.ledelicesoustitre2:before, .ledelicesoustitre2:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 4px;
+    content: '\a0';
+    background-color: #3792F2; 
+}
+.ledelicesoustitre2:before {
+    margin-left: -50%;
+    text-align: right;
+}
+
+section div .ledelicesoustitre3{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.ledelicesoustitre3:before, .ledelicesoustitre3:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 4px;
+    content: '\a0';
+    background-color: #3AA7DD; 
+}
+.ledelicesoustitre3:before {
+    margin-left: -50%;
+    text-align: right;
+}
+
+
+section div .lapalettesoustitre{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.lapalettesoustitre:before{
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 4px;
+    content: '\a0';
+    background: linear-gradient(to right, #336D37, #31B317, #63D36A, white);
+}
+.lapalettesoustitre:before {
+    margin-left: -50%;
+    text-align: right;
+}
+
+.lapalettesoustitre:after {
+	position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 4px;
+    content: '\a0';
+    background: linear-gradient(to right, white, #63D36A, #31B317, #336D37);
+}
+
+/*----------------------Media queries Page Menus---------------------*/
+@media screen and (max-width: 995px)
+{
+
+	main .menuhaut
+	{
+		flex-direction: column;
+		width: 800px;
+		margin-left: 120px;
+    }
+    
+  	main .menubas
+	{
+		flex-direction: column;
+		width: 800px;
+		margin-left: 120px;
+	}
+
+	#prochainement h2
+	{
+	   font-size: 18px;	
+	   margin-top: 6px;
+	   margin-bottom: 6px;
+	}
+
+}
+
+/*--------------media queries Menu 1 la note enchantée-------------*/
+@media screen and (max-width: 950px)
+{
+	main section article.lanoteparag 
+	{
+		flex-direction: column;
+		text-align: center;
+		font-size: 18px;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+}
+
+@media screen and (max-width: 350px)
+{
+	main figure i
+	{
+	   	font-size: 50px;
+	}
+
+	main #titrelanote
+	{
+		font-size: 40px; 
+	}
+
+	main section div .lanotesoustitre
+	{
+		font-size: 20px;
+	}
+
+	main section article.lanoteparag 
+	{
+		font-size: 16px;
+	}
+
+	main aside h1 i 
+	{
+		font-size: 30px;
+	}
+
+	main aside h1
+	{
+		font-size: 25px;
+	}
+
+	footer nav div
+	{
+		text-align: center;
+	}
+
+}
+
+/*--------------media queries Menu 2 Le chic à la française-------------*/
+@media screen and (max-width: 880px)
+{
+	main section article.lechicparag1
+	{
+		flex-direction: column;
+		text-align: center;
+		font-size: 22px;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+	main section article.lechicparag2
+	{
+		flex-direction: column;
+		text-align: center;
+		font-size: 22px;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+	main section article.lechicparag3
+	{
+		flex-direction: column;
+		text-align: center;
+		font-size: 22px;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+}
+
+@media screen and (max-width: 470px)
+{
+
+	main #titrelechic
+	{
+		font-size: 25px; 
+	}
+
+	main section div .lechicsoustitre1
+	{
+		font-size: 22px;
+	}
+
+	main section div .lechicsoustitre2
+	{
+		font-size: 22px;
+	}
+
+	main section div .lechicsoustitre3
+	{
+		font-size: 22px;
+	}
+
+	main section article.lechicparag1 
+	{
+		font-size: 18px;
+	}
+
+	main section article.lechicparag2 
+	{
+		font-size: 18px;
+	}
+
+	main section article.lechicparag3
+	{
+		font-size: 18px;
+	}
+}
+
+/*--------------media queries Menu 3 Le délice des papilles-------------*/
+@media screen and (max-width: 915px)
+{
+	main section div .ledelicesoustitre1
+	{
+		font-size: 21px;
+	}
+
+	main section div .ledelicesoustitre2
+	{
+		font-size: 21px;
+	}
+
+	main section div .ledelicesoustitre3
+	{
+		font-size: 21px;
+	}
+
+	main section article.ledeliceparag
+	{
+		flex-direction: column;
+		text-align: center;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+}
+
+@media screen and (max-width: 430px)
+{
+
+	main #titreledelice
+	{
+		font-size: 40px; 
+	}
+
+	main section div .ledelicesoustitre1
+	{
+		font-size: 18px;
+	}
+
+	main section div .ledelicesoustitre2
+	{
+		font-size: 18px;
+	}
+
+	main section div .ledelicesoustitre3
+	{
+		font-size: 18px;
+	}
+
+	main section .ledeliceparag
+	{
+		font-size: 14px;
+	}
+}
+
+/*--------------media queries Menu 4 La palette du goût-------------*/
+@media screen and (max-width: 950px)
+{
+	section div .lapalettesoustitre
+	{
+		text-align: center;
+		font-size: 23px;
+	}
+
+	main section .lapaletteparag
+	{
+		flex-direction: column;
+		text-align: center;
+		margin-right: 10px;
+		margin-left: 10px;
+	}	
+}
+
+@media screen and (max-width: 480px)
+{
+
+	main #titrelapalette
+	{
+		font-size: 45px; 
+	}
+
+	section div .lapalettesoustitre
+	{
+		font-size: 20px;
+	}
+
+	main section .lapaletteparag
+	{
+		font-size: 14px;
+	}	
+}
+
+/*--------------media queries Mentions légales-------------*/
+@media screen and (max-width: 700px)
+{
+	main #legale
+	{
+		font-size: 25px;
+	}
+
+	main #mentions
+	{
+		font-size: 18px;
+	}
+}
+
+
