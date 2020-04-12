@@ -2,12 +2,10 @@ body
 {   
 	position: relative;
 	height: auto;
-	width: 0 auto;
+	width:  auto;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
-	width: 100%;
-	
 }
 
 main
@@ -194,8 +192,8 @@ header #ohmyfood a
 #prochainement 
 {   border:3px solid #018574;
 	background-color: #018574;
-	margin-right: 41%;
-	margin-left: 41%;
+	margin-right: 30%;
+	margin-left: 30%;
 	margin-bottom:5%; 
 	border-radius: 8px;
 } 
@@ -727,15 +725,16 @@ section div .lapalettesoustitre{
 	main .menuhaut
 	{
 		flex-direction: column;
-		width: 800px;
+		width: 500px;
 		margin-left: 120px;
     }
     
   	main .menubas
 	{
 		flex-direction: column;
-		width: 800px;
+		width: 500px;
 		margin-left: 120px;
+		text-align: center;
 	}
 
 	#prochainement h2
