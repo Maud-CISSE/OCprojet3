@@ -192,10 +192,11 @@ header #ohmyfood a
 #prochainement 
 {   border:3px solid #018574;
 	background-color: #018574;
-	margin-right: 30%;
-	margin-left: 30%;
+	margin-right: 300px;
+	margin-left: 300px;
 	margin-bottom:5%; 
 	border-radius: 8px;
+	text-align: center;
 } 
 
 #prochainement h2
@@ -203,8 +204,8 @@ header #ohmyfood a
    color: #FFC400;
    font-family: trebuchet ms;
    text-align: center;	
-   margin-top: 6px;
-   margin-bottom: 6px;
+   margin-top: 4px;
+   margin-bottom: 4px;
 }
 
 footer 
@@ -726,11 +727,12 @@ section div .lapalettesoustitre{
 	{
 		flex-direction: column;
 		margin-left: 170px;
-    }
+	}
 
     main .menuhaut div:nth-child(1)
 	{ 
 		width: 60%;
+		text-align: center;
 	}
 
 	main .menuhaut div:nth-child(2)
@@ -757,17 +759,15 @@ section div .lapalettesoustitre{
 	#prochainement h2
 	{
 	   font-size: 18px;	
-	   margin-top: 6px;
-	   margin-bottom: 6px;
 	}
 	
 	#prochainement
-	{
-	   margin-right: 20%;
-	   margin-left: 27%;
+    {
+	   margin-left: 220px; 
+	   margin-right: 250px;
 	}
 
-@media screen and (max-width: 730px)
+@media screen and (max-width: 800px)
 {
 	main .menuhaut
 	{
@@ -798,9 +798,51 @@ section div .lapalettesoustitre{
 	{
 		width: 70%;
 	}
+}
+
+@media screen and (max-width: 660px)
+{
+	main .menuhaut
+	{
+		margin-left: 50px;
+    }
+
+    main .menubas
+	{
+		margin-left: 50px;
+    }
+
+	#prochainement h2
+	{		
+	   margin-top: 3px;
+	   margin-bottom: 3px;
+	}
 	
+	#prochainement
+    {
+	   margin-right: 90px;
+	   margin-left: 90px;
+	}
 }	
 
+@media screen and (max-width: 460px)
+{
+	main .menuhaut
+	{
+		margin-left: 25px;
+    }
+
+    main .menubas
+	{
+		margin-left: 25px;
+    }
+
+	#prochainement
+    {
+	   margin-right: 60px;
+	   margin-left: 85px;
+	}
+}
 
 /*--------------media queries Menu 1 la note enchantée-------------*/
 @media screen and (max-width: 950px)
