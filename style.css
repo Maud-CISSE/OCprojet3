@@ -725,26 +725,82 @@ section div .lapalettesoustitre{
 	main .menuhaut
 	{
 		flex-direction: column;
-		width: 500px;
-		margin-left: 120px;
+		margin-left: 170px;
     }
-    
-  	main .menubas
-	{
-		flex-direction: column;
-		width: 500px;
-		margin-left: 120px;
-		text-align: center;
+
+    main .menuhaut div:nth-child(1)
+	{ 
+		width: 60%;
 	}
 
+	main .menuhaut div:nth-child(2)
+	{
+		width: 60%;
+	}
+    
+    main .menubas 
+	{
+		flex-direction: column; 
+		margin-left: 170px;
+	}
+
+	main .menubas div:nth-child(1)
+	{ 
+		width: 60%;
+	}
+
+	main .menubas div:nth-child(2)
+	{
+		width: 60%;
+	}
+	
 	#prochainement h2
 	{
 	   font-size: 18px;	
 	   margin-top: 6px;
 	   margin-bottom: 6px;
 	}
+	
+	#prochainement
+	{
+	   margin-right: 20%;
+	   margin-left: 27%;
+	}
 
-}
+@media screen and (max-width: 730px)
+{
+	main .menuhaut
+	{
+		margin-left: 80px;
+    }
+
+    main .menuhaut div:nth-child(1)
+	{ 
+		width: 	70%;
+	}
+
+	main .menuhaut div:nth-child(2)
+	{
+		width: 70%;
+	}
+    
+    main .menubas 
+	{ 
+		margin-left: 80px;
+	}
+
+	main .menubas div:nth-child(1)
+	{ 
+		width: 70%;
+	}
+
+	main .menubas div:nth-child(2)
+	{
+		width: 70%;
+	}
+	
+}	
+
 
 /*--------------media queries Menu 1 la note enchantée-------------*/
 @media screen and (max-width: 950px)
