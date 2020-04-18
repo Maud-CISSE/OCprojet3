@@ -245,7 +245,15 @@ main h1
 
 #menu1
 {
-    background-color: #ffcdd2; 
+    width: fixed;
+}
+
+#main1
+{
+	width: 70%;
+	margin: auto;
+	background-color: #ffcdd2;
+	margin-bottom: 100px;
 }
 
 main figure
@@ -283,8 +291,8 @@ main section div .lanotesoustitre
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-right: 150px;
-	margin-left: 150px;
+	margin-right: 70px;
+	margin-left: 70px;
 	font-size: 19px;
 	font-family: "comic sans ms";
     color: #4E342E; 
@@ -301,13 +309,22 @@ main aside h1 i
 main aside h1
 {
 	font-size: 30px;
+	font-family: 'Ma Shan Zheng', cursive;
     text-align: center;
 }
 
 /*---------Menu 2 Le chic à la française-------*/
 #menu2
 {
-	background-color: #FCE4EC;  
+    width: fixed;
+}
+
+#main2
+{
+	width: 70%;
+	margin: auto;
+	background-color: #FCE4EC;
+	margin-bottom: 100px;
 }
 
 main #titrelechic
@@ -332,8 +349,8 @@ main section .lechicparag1
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-right: 150px;
-	margin-left: 150px;
+	margin-right: 70px;
+	margin-left: 70px;
 	font-size: 20px;
     color: #C67200;
 }
@@ -350,8 +367,8 @@ main section .lechicparag2
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-right: 150px;
-	margin-left: 150px;
+	margin-right: 70px;
+	margin-left: 70px;
 	font-size: 20px;
     color: #A9527B;
 }
@@ -368,8 +385,8 @@ main section .lechicparag3
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-right: 150px;
-	margin-left: 150px;
+	margin-right: 70px;
+	margin-left: 70px;
 	font-size: 20px;
     color: #9221BA;
 }
@@ -377,7 +394,15 @@ main section .lechicparag3
 /*-------- Menu 3 Le délice des papilles------*/
 #menu3
 {
-	background-color: #FAFAFA; 
+    width: fixed;
+}
+
+#main3
+{
+	width: 70%;
+	margin: auto;
+	background-color: #FAFAFA;
+	margin-bottom: 100px;
 }
 
 main #titreledelice
@@ -419,8 +444,8 @@ main section div .ledelicesoustitre3
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-right: 150px;
-	margin-left: 150px;
+	margin-right: 70px;
+	margin-left: 70px;
 	font-size: 16px;
 	font-family: 'Paprika', cursive;
     color: black; 
@@ -429,7 +454,15 @@ main section div .ledelicesoustitre3
 /*-----------Menu 4 La palette du goût-----------*/
 #menu4
 {
+    width: fixed;
+}
+
+#main4
+{
+	width: 70%;
+	margin: auto;
 	background-color: #F9FBE7;
+	margin-bottom: 100px;
 }
 
 main #titrelapalette
@@ -454,8 +487,8 @@ main #titrelapalette
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-right: 150px;
-	margin-left: 150px;
+	margin-right: 70px;
+	margin-left: 70px;
 	font-size: 16px;
 	font-family: 'Paprika', cursive;
     color: black; 
@@ -519,42 +552,55 @@ main #mentions
 	75%  { content: '...'; }
 	100% { content: ''; }
 }
+/*Soulignement des soustitres de gauche à droite*/
+ 
 
- /*Soustitre souligner gauche vers la droite à revoir
-section div h2:before
+main .entrees div h2 span
 {
-	 content: '';
-    display: block;
-    margin: auto;
-    height: 1px;
-    width: 0;
-    background: transparent;
-    transition: width .5s ease, background-color .5s ease;
+	background: linear-gradient(to top, rgba(33,33,33 ,1) 0%, rgba(33,33,33 ,1) 2px, transparent 3px) no-repeat;
+	background-size: 0 100%;
+	transition: background-size .3s;
 }
 
-section div h2:after {
-    content: '';
-    display: block;
-    margin: auto;
-    height: 1px;
-    width: 0;
-    background: transparent;
-    transition: width .5s ease, background-color .5s ease;
+main .entrees div h2 span:hover
+{
+	background-size: 100% 100%;
 }
-section div h2:hover:after {
-    width: 26%;
-    background: #444;
+
+main .plats div h2 span
+{
+	background: linear-gradient(to top, rgba(33,33,33 ,1) 0%, rgba(33,33,33 ,1) 2px, transparent 3px) no-repeat;
+	background-size: 0 100%;
+	transition: background-size .3s;
 }
-*/
+
+main .plats div h2 span:hover
+{
+	background-size: 100% 100%;
+}
+
+main .desserts div h2 span
+{
+	background: linear-gradient(to top, rgba(33,33,33 ,1) 0%, rgba(33,33,33 ,1) 2px, transparent 3px) no-repeat;
+	background-size: 0 100%;
+	transition: background-size .3s;
+}
+
+main .desserts div h2 span:hover
+{
+	background-size: 100% 100%;
+}
 
 /*------------------Traits des soustitre------------------*/
-section div .lanotesoustitre{
+section div .lanotesoustitre
+{
     position: relative;
     overflow: hidden;
     text-align: center;
 }
 
-.lanotesoustitre:before, .lanotesoustitre:after {
+.lanotesoustitre:before, .lanotesoustitre:after 
+{
     position: absolute;
     top: 51%;
     overflow: hidden;
@@ -563,18 +609,22 @@ section div .lanotesoustitre{
     content: '\a0';
     background-color: #4E342E; 
 }
-.lanotesoustitre:before {
+
+.lanotesoustitre:before 
+{
     margin-left: -50%;
     text-align: right;
 }
 
-section div h2.lechicsoustitre1{
+section div h2.lechicsoustitre1
+{
     position: relative;
     overflow: hidden;
     text-align: center;
 }
 
-.lechicsoustitre1:before, .lechicsoustitre1:after {
+.lechicsoustitre1:before, .lechicsoustitre1:after 
+{
     position: absolute;
     top: 51%;
     overflow: hidden;
@@ -583,18 +633,22 @@ section div h2.lechicsoustitre1{
     content: '\a0';
     background-color: #C67200;
 }
-.lechicsoustitre1:before {
+
+.lechicsoustitre1:before 
+{
     margin-left: -50%;
     text-align: right;
 }
 
-section div h2.lechicsoustitre2{
+section div h2.lechicsoustitre2
+{
     position: relative;
     overflow: hidden;
     text-align: center;
 }
 
-.lechicsoustitre2:before, .lechicsoustitre2:after {
+.lechicsoustitre2:before, .lechicsoustitre2:after 
+{
     position: absolute;
     top: 51%;
     overflow: hidden;
@@ -603,18 +657,22 @@ section div h2.lechicsoustitre2{
     content: '\a0';
     background-color: #A9527B;
 }
-.lechicsoustitre2:before {
+
+.lechicsoustitre2:before 
+{
     margin-left: -50%;
     text-align: right;
 }
 
-section div h2.lechicsoustitre3{
+section div h2.lechicsoustitre3
+{
     position: relative;
     overflow: hidden;
     text-align: center;
 }
 
-.lechicsoustitre3:before, .lechicsoustitre3:after {
+.lechicsoustitre3:before, .lechicsoustitre3:after 
+{
     position: absolute;
     top: 51%;
     overflow: hidden;
@@ -623,18 +681,22 @@ section div h2.lechicsoustitre3{
     content: '\a0';
     background-color: #9221BA;
 }
-.lechicsoustitre3:before {
+
+.lechicsoustitre3:before 
+{
     margin-left: -50%;
     text-align: right;
 }
 
-section div .ledelicesoustitre1{
+section div .ledelicesoustitre1
+{
     position: relative;
     overflow: hidden;
     text-align: center;
 }
 
-.ledelicesoustitre1:before, .ledelicesoustitre1:after {
+.ledelicesoustitre1:before, .ledelicesoustitre1:after 
+{
     position: absolute;
     top: 51%;
     overflow: hidden;
@@ -643,18 +705,22 @@ section div .ledelicesoustitre1{
     content: '\a0';
     background-color: #3B3DED; 
 }
-.ledelicesoustitre1:before {
+
+.ledelicesoustitre1:before 
+{
     margin-left: -50%;
     text-align: right;
 }
 
-section div .ledelicesoustitre2{
+section div .ledelicesoustitre2
+{
     position: relative;
     overflow: hidden;
     text-align: center;
 }
 
-.ledelicesoustitre2:before, .ledelicesoustitre2:after {
+.ledelicesoustitre2:before, .ledelicesoustitre2:after 
+{
     position: absolute;
     top: 51%;
     overflow: hidden;
@@ -663,18 +729,22 @@ section div .ledelicesoustitre2{
     content: '\a0';
     background-color: #3792F2; 
 }
-.ledelicesoustitre2:before {
+
+.ledelicesoustitre2:before 
+{
     margin-left: -50%;
     text-align: right;
 }
 
-section div .ledelicesoustitre3{
+section div .ledelicesoustitre3
+{
     position: relative;
     overflow: hidden;
     text-align: center;
 }
 
-.ledelicesoustitre3:before, .ledelicesoustitre3:after {
+.ledelicesoustitre3:before, .ledelicesoustitre3:after 
+{
     position: absolute;
     top: 51%;
     overflow: hidden;
@@ -683,19 +753,22 @@ section div .ledelicesoustitre3{
     content: '\a0';
     background-color: #3AA7DD; 
 }
-.ledelicesoustitre3:before {
+
+.ledelicesoustitre3:before 
+{
     margin-left: -50%;
     text-align: right;
 }
 
-
-section div .lapalettesoustitre{
+section div .lapalettesoustitre
+{
     position: relative;
     overflow: hidden;
     text-align: center;
 }
 
-.lapalettesoustitre:before{
+.lapalettesoustitre:before
+{
     position: absolute;
     top: 51%;
     overflow: hidden;
@@ -704,12 +777,15 @@ section div .lapalettesoustitre{
     content: '\a0';
     background: linear-gradient(to right, #336D37, #31B317, #63D36A, white);
 }
-.lapalettesoustitre:before {
+
+.lapalettesoustitre:before 
+{
     margin-left: -50%;
     text-align: right;
 }
 
-.lapalettesoustitre:after {
+.lapalettesoustitre:after 
+{
 	position: absolute;
     top: 51%;
     overflow: hidden;
@@ -832,10 +908,50 @@ section div .lapalettesoustitre{
 		margin-left: 25px;
     }
 
+    .menuhaut div:nth-child(1) a section h4
+	{
+		font-size: 20px; 
+	}
+
+	.menuhaut div:nth-child(1) a section h2 
+	{
+		font-size: 20px;
+	}
+
+	 .menuhaut div:nth-child(2) a section h4
+	{
+		font-size: 19px; 
+	}
+
+	.menuhaut div:nth-child(2) a section h2 
+	{
+		font-size: 20px;
+	}
+
     main .menubas
 	{
 		margin-left: 25px;
     }
+
+     .menubas div:nth-child(1) a section h4
+	{
+		font-size: 19px; 
+	}
+
+	.menubas div:nth-child(1) a section h2 
+	{
+		font-size: 19px;
+	}
+
+	 .menubas div:nth-child(2) a section h4
+	{
+		font-size: 22px; 
+	}
+
+	.menubas div:nth-child(2) a section h2 
+	{
+		font-size: 22px;
+	}
 
 	#prochainement
     {
@@ -937,17 +1053,17 @@ section div .lapalettesoustitre{
 
 	main section div .lechicsoustitre1
 	{
-		font-size: 22px;
+		font-size: 20px;
 	}
 
 	main section div .lechicsoustitre2
 	{
-		font-size: 22px;
+		font-size: 20px;
 	}
 
 	main section div .lechicsoustitre3
 	{
-		font-size: 22px;
+		font-size: 20px;
 	}
 
 	main section article.lechicparag1 
