@@ -1,0 +1,200 @@
+/*-----------Menu 4 La palette du goût-----------*/
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo
+{   
+	border:2px solid #018574;
+	background-color: #018574;
+}
+ 
+header #ohmyfood 
+{
+	text-align: center;
+	color: #FFC400;
+}
+
+header #ohmyfood a
+{
+	color: #FFC400;
+	text-decoration: none;
+}
+
+#main4
+{
+	width: 70%;
+	margin: 0 auto;
+	padding: 2%;
+	background-color: #F9FBE7;
+	margin-bottom: 45px;
+}
+
+main #titrelapalette
+{
+	font-family: 'Romanesco', cursive;
+	font-size: 60px;
+	text-align: center;
+	background: -webkit-gradient(linear, left bottom, right bottom, from(#0A630D), to(#C6FF00));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ 
+section div .lapalettesoustitre
+{
+	text-align: center;
+	font-family: 'Paprika', cursive;
+	font-size: 25px;
+	color: black;
+}
+
+main section .lapaletteparag
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 70px;
+	margin-left: 70px;
+	font-size: 16px;
+	font-family: 'Paprika', cursive;
+    color: black; 
+}
+
+footer 
+{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	height:55px;
+}
+
+footer nav
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border: 1px solid #018574;
+	background-color: #018574;
+}
+
+footer nav div p a
+{   
+	color: #FFC400;
+	text-decoration: none;
+	font-family: trbuchet ms;
+	font-size: 18px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+/*Soulignement des soustitres de gauche à droite*/
+main .entrees div h2 span
+{
+	background: linear-gradient(to top, rgba(33,33,33 ,1) 0%, rgba(33,33,33 ,1) 2px, transparent 3px) no-repeat;
+	background-size: 0 100%;
+	transition: background-size .3s;
+}
+
+main .entrees div h2 span:hover
+{
+	background-size: 100% 100%;
+}
+
+main .plats div h2 span
+{
+	background: linear-gradient(to top, rgba(33,33,33 ,1) 0%, rgba(33,33,33 ,1) 2px, transparent 3px) no-repeat;
+	background-size: 0 100%;
+	transition: background-size .3s;
+}
+
+main .plats div h2 span:hover
+{
+	background-size: 100% 100%;
+}
+
+main .desserts div h2 span
+{
+	background: linear-gradient(to top, rgba(33,33,33 ,1) 0%, rgba(33,33,33 ,1) 2px, transparent 3px) no-repeat;
+	background-size: 0 100%;
+	transition: background-size .3s;
+}
+
+main .desserts div h2 span:hover
+{
+	background-size: 100% 100%;
+}
+
+/*------------------Traits des soustitre------------------*/
+section div .lapalettesoustitre
+{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.lapalettesoustitre:before
+{
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 4px;
+    content: '\a0';
+    background: linear-gradient(to right, #336D37, #31B317, #63D36A, white);
+}
+
+.lapalettesoustitre:before 
+{
+    margin-left: -50%;
+    text-align: right;
+}
+
+.lapalettesoustitre:after 
+{
+	position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 4px;
+    content: '\a0';
+    background: linear-gradient(to right, white, #63D36A, #31B317, #336D37);
+}
+
+/*--------------media queries Menu 4 La palette du goût-------------*/
+@media screen and (max-width: 950px)
+{
+	section div .lapalettesoustitre
+	{
+		text-align: center;
+		font-size: 23px;
+	}
+
+	main section .lapaletteparag
+	{
+		flex-direction: column;
+		text-align: center;
+		margin-right: 10px;
+		margin-left: 10px;
+	}	
+}
+
+@media screen and (max-width: 480px)
+{
+
+	main #titrelapalette
+	{
+		font-size: 45px; 
+	}
+
+	section div .lapalettesoustitre
+	{
+		font-size: 17px;
+	}
+
+	main section .lapaletteparag
+	{
+		font-size: 12px;
+	}	
+}

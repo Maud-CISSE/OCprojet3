@@ -1,0 +1,304 @@
+/*---------Menu 2 Le chic à la française-------*/
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo
+{   
+	border:2px solid #018574;
+	background-color: #018574;
+}
+ 
+header #ohmyfood 
+{
+	text-align: center;
+	color: #FFC400;
+}
+
+header #ohmyfood a
+{
+	color: #FFC400;
+	text-decoration: none;
+}
+
+#main2
+{
+	width: 70%;
+	margin: 0 auto;
+	padding: 2%;
+	background-color: #FCE4EC;
+	margin-bottom: 45px;
+}
+
+main #titrelechic
+{
+	font-family: 'Croissant One', cursive;
+	font-size: 40px;
+	text-align: center;
+	background: -webkit-gradient(linear, left bottom, right bottom, from(#FFA000), to(#651FFF));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+main section div .lechicsoustitre1
+{
+	text-align: center;
+    color: #C67200;
+	font-size: 30px;
+}
+
+main section .lechicparag1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 70px;
+	margin-left: 70px;
+	font-size: 20px;
+    color: #C67200;
+}
+
+main section div .lechicsoustitre2
+{
+	text-align: center;
+    color: #A9527B;
+	font-size: 30px;
+}
+
+main section .lechicparag2
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 70px;
+	margin-left: 70px;
+	font-size: 20px;
+    color: #A9527B;
+}
+
+main section div .lechicsoustitre3
+{
+	text-align: center;
+    color: #9221BA;
+	font-size: 30px;
+}
+
+main section .lechicparag3
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 70px;
+	margin-left: 70px;
+	font-size: 20px;
+    color: #9221BA;
+}
+
+footer 
+{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	height:55px;
+}
+
+footer nav
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border: 1px solid #018574;
+	background-color: #018574;
+}
+
+footer nav div p a
+{   
+	color: #FFC400;
+	text-decoration: none;
+	font-family: trbuchet ms;
+	font-size: 18px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+/*Soulignement des soustitres de gauche à droite*/
+ main .entrees div h2 span
+{
+	background: linear-gradient(to top, rgba(33,33,33 ,1) 0%, rgba(33,33,33 ,1) 2px, transparent 3px) no-repeat;
+	background-size: 0 100%;
+	transition: background-size .3s;
+}
+
+main .entrees div h2 span:hover
+{
+	background-size: 100% 100%;
+}
+
+main .plats div h2 span
+{
+	background: linear-gradient(to top, rgba(33,33,33 ,1) 0%, rgba(33,33,33 ,1) 2px, transparent 3px) no-repeat;
+	background-size: 0 100%;
+	transition: background-size .3s;
+}
+
+main .plats div h2 span:hover
+{
+	background-size: 100% 100%;
+}
+
+main .desserts div h2 span
+{
+	background: linear-gradient(to top, rgba(33,33,33 ,1) 0%, rgba(33,33,33 ,1) 2px, transparent 3px) no-repeat;
+	background-size: 0 100%;
+	transition: background-size .3s;
+}
+
+main .desserts div h2 span:hover
+{
+	background-size: 100% 100%;
+}
+
+/*------------------Traits des soustitre------------------*/
+section div h2.lechicsoustitre1
+{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.lechicsoustitre1:before, .lechicsoustitre1:after 
+{
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 4px;
+    content: '\a0';
+    background-color: #C67200;
+}
+
+.lechicsoustitre1:before 
+{
+    margin-left: -50%;
+    text-align: right;
+}
+
+section div h2.lechicsoustitre2
+{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.lechicsoustitre2:before, .lechicsoustitre2:after 
+{
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 4px;
+    content: '\a0';
+    background-color: #A9527B;
+}
+
+.lechicsoustitre2:before 
+{
+    margin-left: -50%;
+    text-align: right;
+}
+
+section div h2.lechicsoustitre3
+{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.lechicsoustitre3:before, .lechicsoustitre3:after 
+{
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 4px;
+    content: '\a0';
+    background-color: #9221BA;
+}
+
+.lechicsoustitre3:before 
+{
+    margin-left: -50%;
+    text-align: right;
+}
+
+/*--------------media queries Menu 2 Le chic à la française-------------*/
+@media screen and (max-width: 880px)
+{
+	main section article.lechicparag1
+	{
+		flex-direction: column;
+		text-align: center;
+		font-size: 22px;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+	main section article.lechicparag2
+	{
+		flex-direction: column;
+		text-align: center;
+		font-size: 22px;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+	main section article.lechicparag3
+	{
+		flex-direction: column;
+		text-align: center;
+		font-size: 22px;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+}
+
+@media screen and (max-width: 470px)
+{
+
+	main #titrelechic
+	{
+		font-size: 25px; 
+	}
+
+	main section div .lechicsoustitre1
+	{
+		font-size: 18px;
+	}
+
+	main section div .lechicsoustitre2
+	{
+		font-size: 18px;
+	}
+
+	main section div .lechicsoustitre3
+	{
+		font-size: 18px;
+	}
+
+	main section article.lechicparag1 
+	{
+		font-size: 16px;
+	}
+
+	main section article.lechicparag2 
+	{
+		font-size: 16px;
+	}
+
+	main section article.lechicparag3
+	{
+		font-size: 16px;
+	}
+}

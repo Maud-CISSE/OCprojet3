@@ -1,0 +1,231 @@
+/*-------------Menu 1 La note enchantée-------------*/
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo
+{   
+	border:2px solid #018574;
+	background-color: #018574;
+}
+ 
+header #ohmyfood 
+{
+	text-align: center;
+	color: #FFC400;
+}
+
+header #ohmyfood a
+{
+	color: #FFC400;
+	text-decoration: none;
+}
+
+#main1
+{
+	width: 70%;
+	margin: 0 auto;
+	padding: 2%;
+	background-color: #ffcdd2;
+	margin-bottom: 45px;
+}
+
+main figure
+{
+	text-align: center;
+	margin-top: 40px;
+}
+
+main figure i
+{
+   	font-size: 60px;
+    background: -webkit-gradient(linear, left bottom, right bottom, from(#ef5350), to(#FFAB91));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+main #titrelanote
+{
+	color: #4E342E; 
+	font-family: 'Ma Shan Zheng', cursive;
+	font-size: 50px; 
+	text-align: center;
+}
+
+main section div .lanotesoustitre
+{
+	text-align: center;
+    font-family: "comic sans ms";
+    color: #4E342E;
+	font-size: 25px;
+}
+
+ main section .lanoteparag 
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 70px;
+	margin-left: 70px;
+	font-size: 19px;
+	font-family: "comic sans ms";
+    color: #4E342E; 
+}
+
+main aside h1 i 
+{
+	font-size: 40px;
+    background: -webkit-gradient(linear, left bottom, right bottom, from(#ef5350), to(#FFAB91));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+main aside h1
+{
+	font-size: 30px;
+	font-family: 'Ma Shan Zheng', cursive;
+    text-align: center;
+}
+
+footer 
+{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	height:55px;
+}
+
+footer nav
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border: 1px solid #018574;
+	background-color: #018574;
+}
+
+footer nav div p a
+{   
+	color: #FFC400;
+	text-decoration: none;
+	font-family: trbuchet ms;
+	font-size: 18px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+/*Soulignement des soustitres de gauche à droite*/
+ main .entrees div h2 span
+{
+	background: linear-gradient(to top, rgba(33,33,33 ,1) 0%, rgba(33,33,33 ,1) 2px, transparent 3px) no-repeat;
+	background-size: 0 100%;
+	transition: background-size .3s;
+}
+
+main .entrees div h2 span:hover
+{
+	background-size: 100% 100%;
+}
+
+main .plats div h2 span
+{
+	background: linear-gradient(to top, rgba(33,33,33 ,1) 0%, rgba(33,33,33 ,1) 2px, transparent 3px) no-repeat;
+	background-size: 0 100%;
+	transition: background-size .3s;
+}
+
+main .plats div h2 span:hover
+{
+	background-size: 100% 100%;
+}
+
+main .desserts div h2 span
+{
+	background: linear-gradient(to top, rgba(33,33,33 ,1) 0%, rgba(33,33,33 ,1) 2px, transparent 3px) no-repeat;
+	background-size: 0 100%;
+	transition: background-size .3s;
+}
+
+main .desserts div h2 span:hover
+{
+	background-size: 100% 100%;
+}
+
+/*------------------Traits des soustitre------------------*/
+section div .lanotesoustitre
+{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.lanotesoustitre:before, .lanotesoustitre:after 
+{
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 4px;
+    content: '\a0';
+    background-color: #4E342E; 
+}
+
+.lanotesoustitre:before 
+{
+    margin-left: -50%;
+    text-align: right;
+}
+
+/*--------------media queries Menu 1 la note enchantée-------------*/
+@media screen and (max-width: 950px)
+{
+	main section article.lanoteparag 
+	{
+		flex-direction: column;
+		text-align: center;
+		font-size: 18px;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+}
+
+@media screen and (max-width: 350px)
+{
+	main figure i
+	{
+	   	font-size: 50px;
+	}
+
+	main #titrelanote
+	{
+		font-size: 40px; 
+	}
+
+	main section div .lanotesoustitre
+	{
+		font-size: 20px;
+	}
+
+	main section article.lanoteparag 
+	{
+		font-size: 16px;
+	}
+
+	main aside h1 i 
+	{
+		font-size: 30px;
+	}
+
+	main aside h1
+	{
+		font-size: 25px;
+	}
+
+	footer nav div
+	{
+		text-align: center;
+	}
+
+}

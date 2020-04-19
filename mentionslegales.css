@@ -1,0 +1,80 @@
+/*-----------Mentions Légales-----------*/
+body
+{   
+	position: relative;
+	height: auto;
+	width:  auto;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+#logo
+{   border:2px solid #018574;
+	background-color: #018574;
+}
+ 
+header #ohmyfood 
+{
+	text-align: center;
+	color: #FFC400;
+}
+
+header #ohmyfood a
+{
+	color: #FFC400;
+	text-decoration: none;
+}
+
+main #legale
+{
+	font-size: 30px;
+	text-align: center;
+}
+
+main #mentions
+{
+	font-size: 20px;
+	text-align: center;
+}
+
+footer 
+{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	height:55px;
+}
+
+footer nav
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border: 1px solid #018574;
+	background-color: #018574;
+}
+
+footer nav div p a
+{   
+	color: #FFC400;
+	text-decoration: none;
+	font-family: trbuchet ms;
+	font-size: 18px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+/*--------------media queries Mentions légales-------------*/
+@media screen and (max-width: 700px)
+{
+	main #legale
+	{
+		font-size: 25px;
+	}
+
+	main #mentions
+	{
+		font-size: 18px;
+	}
+}
