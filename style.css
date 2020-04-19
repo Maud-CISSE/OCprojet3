@@ -243,7 +243,7 @@ main h1
 
 /*-------------Menu 1 La note enchantée-------------*/
 
-#menu1
+.bodymenu
 {
     width: fixed;
 }
@@ -314,11 +314,6 @@ main aside h1
 }
 
 /*---------Menu 2 Le chic à la française-------*/
-#menu2
-{
-    width: fixed;
-}
-
 #main2
 {
 	width: 70%;
@@ -392,11 +387,6 @@ main section .lechicparag3
 }
 
 /*-------- Menu 3 Le délice des papilles------*/
-#menu3
-{
-    width: fixed;
-}
-
 #main3
 {
 	width: 70%;
@@ -452,11 +442,6 @@ main section div .ledelicesoustitre3
 }
 
 /*-----------Menu 4 La palette du goût-----------*/
-#menu4
-{
-    width: fixed;
-}
-
 #main4
 {
 	width: 70%;
