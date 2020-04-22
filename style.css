@@ -84,7 +84,7 @@ header #ohmyfood a
 
 .menuhaut div:nth-child(1)
 {
-	background-color: #ffcdd2;
+	background-color: #FFDADB;
 	box-shadow: 4px 4px 4px 4px grey;
 }
 
@@ -109,7 +109,7 @@ header #ohmyfood a
 
 .menuhaut div:nth-child(2)
 {
-	background-color: #FCE4EC;
+	background-color: #FFF5FD;
 	box-shadow: 4px 4px 4px 4px grey;
 }
 
@@ -163,7 +163,7 @@ header #ohmyfood a
 
 .menubas div:nth-child(2)
 {
-	background-color: #F9FBE7;
+	background-color: #FAFFFA;
 	box-shadow: 4px 4px 4px 4px grey;
 }
 
