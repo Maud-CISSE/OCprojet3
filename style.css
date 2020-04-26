@@ -12,24 +12,7 @@ main
 {
    margin-bottom: 70px;
 }
-
-#logo
-{   border:2px solid #018574;
-	background-color: #018574;
-	
-}
  
-header #ohmyfood 
-{
-	text-align: center;
-	color: #FFC400;
-}
-header #ohmyfood a
-{
-	color: #FFC400;
-	text-decoration: none;
-}
-
 .menuhaut
 {
 	display: flex;
@@ -193,11 +176,12 @@ header #ohmyfood a
 { 
 	background-color: #018574;
 	border: 4px solid #018574;
-	margin-right: 420px;
-	margin-left: 420px;
 	margin-bottom:8%; 
 	border-radius: 8px;
 	text-align: center;
+	width: 20%;
+	margin-top: 2%;
+	margin:auto;
 } 
 
 #prochainement h2
@@ -208,33 +192,6 @@ header #ohmyfood a
    text-align: center;	
    margin-top:3px;
    margin-bottom: 3px;
-}
-
-footer 
-{
-	width: 100%;
-	position: fixed;
-	bottom: 0;
-	height:55px;
-}
-
-footer nav
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	border: 1px solid #018574;
-	background-color: #018574;
-}
-
-footer nav div p a
-{   
-	color: #FFC400;
-	text-decoration: none;
-	font-family: trbuchet ms;
-	font-size: 18px;
-	margin-right: 20px;
-	margin-left: 20px;
 }
 
 main h1 
@@ -282,6 +239,7 @@ main h1
 	animation: dotty steps(1,end) 2s infinite;
 	content: '';
 }
+
 @keyframes dotty 
 {
 	0%   { content: ''; }
@@ -298,13 +256,17 @@ main h1
 	main .menuhaut
 	{
 		flex-direction: column;
-		margin-left: 300px;
 	}
 
-    main .menuhaut div:nth-child(1)
+	.menuhaut div 
+	{
+		margin: auto;
+		margin-top: 10%;
+	}
+
+	main .menuhaut div:nth-child(1)
 	{ 
 		width: 45%;
-		text-align: center;
 	}
 
 	main .menuhaut div:nth-child(2)
@@ -315,7 +277,12 @@ main h1
     main .menubas 
 	{
 		flex-direction: column; 
-		margin-left: 300px;
+	}
+
+	.menubas div 
+	{
+		margin: auto;
+		margin-top: 10%;
 	}
 
 	main .menubas div:nth-child(1)
@@ -327,25 +294,24 @@ main h1
 	{
 		width: 45%;
 	}
-	
-	#prochainement h2
+
+	#prochainement
+    {
+	  width: 40%;
+	  margin: auto;
+	  margin-top: 4%;
+	}
+
+    #prochainement h2
 	{
 	   font-size: 17px;	
 	}
-	
-	#prochainement
-    {
-	   margin-left: 360px; 
-	   margin-right: 350px;
-	}
+
 }
 
 @media screen and (max-width: 873px)
 {
-	main .menuhaut
-	{
-		margin-left: 250px;
-    }
+	
 
     main .menuhaut div:nth-child(1)
 	{ 
@@ -357,12 +323,7 @@ main h1
 		width: 55%;
 	}
     
-    main .menubas 
-	{ 
-		margin-left: 250px;
-	}
-
-	main .menubas div:nth-child(1)
+    main .menubas div:nth-child(1)
 	{ 
 		width: 55%;
 	}
@@ -371,38 +332,16 @@ main h1
 	{
 		width: 55%;
 	}
-
-	#prochainement
-	{
-		margin-left: 300px;
-		margin-right: 250px;
-	}
 }
 
 @media screen and (max-width: 715px)
 {
-	main .menuhaut
-	{
-		margin-left: 150px;
-    }
-
-    main .menubas
-	{
-		margin-left: 150px;
-    }
-
 	#prochainement h2
 	{		
 	   margin-top: 3px;
 	   margin-bottom: 3px;
 	}
 	
-	#prochainement
-    {
-	   margin-right: 190px;
-	   margin-left: 200px;
-	}
-
 	#prochainement h2
 	{
 		font-size: 15px;
@@ -411,12 +350,7 @@ main h1
 
 @media screen and (max-width: 538px)
 {
-	main .menuhaut
-	{
-		margin-left: 60px;
-    }
-
-    .menuhaut div:nth-child(1) a section h4
+	.menuhaut div:nth-child(1) a section h4
 	{
 		font-size: 20px; 
 	}
@@ -435,11 +369,6 @@ main h1
 	{
 		font-size: 20px;
 	}
-
-    main .menubas
-	{
-		margin-left: 60px;
-    }
 
     .menubas div:nth-child(1) a section h4
 	{
@@ -460,29 +389,5 @@ main h1
 	{
 		font-size: 22px;
 	}
-
-	#prochainement
-    {
-	  margin-right: 140px;
-	  margin-left: 110px;
-	}
 }
 
-@media screen and (max-width: 415px)
-{
-	main .menuhaut
-	{
-		margin-left: 30px;
-    }
-
-     main .menubas
-	{
-		margin-left: 30px;
-    }
-
-	#prochainement
-    {
-	  margin-right: 90px;
-	  margin-left: 70px;
-	}
-}
